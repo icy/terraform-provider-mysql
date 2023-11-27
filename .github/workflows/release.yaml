@@ -18,9 +18,9 @@ jobs:
       issues: write
       metadata: read
       packages: write
-      pullrequests: write
-      repositoryprojects: write
-      securityevents: write
+      pull-requests: read
+      repository-projects: write
+      security-events: read
       statuses: write
     steps:
     - name: Checkout
