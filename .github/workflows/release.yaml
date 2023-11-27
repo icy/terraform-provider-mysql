@@ -33,3 +33,5 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         GPG_FINGERPRINT: ${{ steps.import_gpg.outputs.fingerprint }}
         GPG_USER: ${{ vars.GPG_USER }}
+      permissions:
+        packages: write
