@@ -1,5 +1,9 @@
 **This repository is an unofficial fork**
 
+With some CI support to publish the artifacts to Terraform registry automatically.
+
+**This repository is an unofficial fork**
+
 The fork is mostly based of the official (now archived) repo.
 The provider has also some extra changes and solves almost all the reported
 issues.
